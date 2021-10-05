@@ -20,7 +20,7 @@ class PostmanTest {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Это неправильное решение"))
+                .body("data", equalTo("Это простое решение"))
         ;
     }
 }
